@@ -160,7 +160,7 @@ footer {
 
 .cv_eye_catch {
   height: 300px;
-  background-image: url(../images/233.jpg);
+  background-image: url(../images/567.jpg);
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -169,6 +169,19 @@ footer {
   color: #feeeed;
   font-weight: bold;
 }
+
+.works_eye_catch {
+  height: 300px;
+  background-image: url(../images/789.jpg);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #feeeed;
+  font-weight: bold;
+}
+
 .contents {
   max-width: 1000px;
   min-height: 600px;
