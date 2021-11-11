@@ -1,44 +1,63 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/style.css">
-  <title>トップページ</title>
-</head>
-<body>
-  
-  <header>
-    <div class="inner">
-      <p id="header_logo">
-        <a href="./index.html"><img src="./images/123.png" alt=""></a>
-      </p>
-      <ul id="global_menu">
-        <li><a href="./cv.html">cv</a></li>
-        <li><a href="./works/index.html">works</a></li>
-        <li><a href="./reports/index.html">report</a></li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 必要なライブラリをネット上から直接参照 CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/filipelinhares/ress/master/dist/ress.min.css"/>
+    <!-- 自分のcss -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- 自分のjs -->
+    <script src="./script.js"></script>
+    <title>Snow scene</title>
+  </head>
+  <body class="one">
+    <div class="wrapper">
+      
+      <header>
+        <h1>Snow scene</h1>
+        <div id="wave"></div>
+        <div id="line"></div>
+      </header>
+
+      <div id="back">
+        <div id="backimg01" class="backimg"><img src="./img/white_00060.jpg" alt=""></div>
+        <div id="backimg02" class="backimg"><img src="./img/white_00060.jpg" alt=""></div>
+        <div id="backimg03" class="backimg"><img src="./img/white_00060.jpg" alt=""></div>
+      </div>
+
+      <ul id="menu">
+        <li id="btn01">01</li>
+        <li id="btn02">02</li>
+        <li id="btn03">03</li>
       </ul>
+
+      <div id="content">
+        <div class="set"><img src="./img/1.jpeg"></div>
+        <div class="set"><img src="./img/2.jpeg"></div>
+        <div class="set"><img src="./img/3.jpeg"></div>
+        <div class="set"><img src="./img/4.jpeg"></div>
+        <div class="set"><img src="./img/5.jpeg"></div>
+        <div class="set"><img src="./img/6.jpeg"></div>
+        <div class="set"><img src="./img/7.jpeg"></div>
+        <div class="set"><img src="./img/8.jpeg"></div>
+        <div class="set"><img src="./img/9.jpeg"></div>
+        <div class="set"><img src="./img/10.jpeg"></div>
+        <div class="set"><img src="./img/11.jpeg"></div>
+        <div class="set"><img src="./img/12.jpeg"></div>
+        <div class="set"><img src="./img/13.jpeg"></div>
+        <div class="set"><img src="./img/14.jpeg"></div>
+        <div class="set"><img src="./img/15.jpeg"></div>
+        <div class="set"><img src="./img/16.jpeg"></div>
+        <div class="set"><img src="./img/17.jpeg"></div>
+        <div class="set"><img src="./img/18.jpeg"></div>
+        <div class="set"><img src="./img/19.jpeg"></div>
+        <div class="set"><img src="./img/20.jpeg"></div>
+        <div class="set"><img src="./img/1.jpeg"></div>
+      </div>
+      
     </div>
-  </header>
-
-  <section>
-    <!-- 空の要素だけどcssで背景を設定している -->
-    <div class="top_eye_catch">
-      DROP KYOTO
-    </div>
-    <div class="contents">
-      <h2>        祝 武运隆昌</h2>
-      <ul>
-        <li><a href="./reports/report01.html">レポートを追加しました!!!!!!!</a></li>
-      </ul>
-    </div>
-  </section>
-
-  <footer>
-    ZYILE
-  </footer>
-
-
-</body>
+  </body>
 </html>
